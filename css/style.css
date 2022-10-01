@@ -130,7 +130,43 @@ img {
  @media screen and (max-width:768px) {
 .container{
 width: 800px;
+margin: auto;
+padding: 0 10px;
+}
 }
 
-}
+@media screen and(max-width:468px) {
+    .container{
+        width: 465px;
+        padding: 0 16px;
+    }
+    h2{
+        margin-bottom: 2rem;
+        font-size: 2,2rem;   
+    }
+    
+    
 
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .step .col{
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+    .why-us{
+        background-color: #222222;
+        padding: 1.5rem 0;
+    }
+    .why-us .col-left{
+        width: 65%;
+    }
+
+    .why-us .col-right{
+        width: 85%;
+    }
+    
+}
+    
